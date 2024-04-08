@@ -21,36 +21,36 @@
                 <div class="row row-cols-3">
                     <div class="d-flex flex-column col-5">
                         <label for="card">Card#</label>
-                        <input type="text" name="card" placeholder="  XXXXXXXXXXXXXXXX  " required autofocus />
+                        <input class="form-control" type="text" name="card" placeholder="  XXXXXXXXXXXXXXXX  " required autofocus />
                     </div>
                     <div class="d-flex flex-column col-3">
                         <label for="cvc">CVC#</label>
-                        <input type="text" name="cvc" placeholder="  0000  " required autofocus />
+                        <input class="form-control" type="text" name="cvc" placeholder="  0000  " required autofocus />
                     </div>
                     <div class="d-flex flex-column col-4 position-relative">
                         <label for="amount">Amount</label>
-                        <input type="text" name="amount" placeholder="  Amount  " required autofocus />
+                        <input class="form-control" type="text" name="amount" placeholder="  Amount  " required autofocus />
                         <span class="border-0 bg-white position-absolute top-50 start-0 fw-bolder">$</span>
                     </div>
                 </div>
                 <div class="row row-cols-2">
                     <div class="d-flex flex-column">
                         <label for="firstName">First Name</label>
-                        <input type="text" name="firstName" placeholder="" required autofocus />
+                        <input class="form-control" type="text" name="firstName" placeholder="" required autofocus />
                     </div>
                     <div class="d-flex flex-column">
                         <label for="lastName">Last Name</label>
-                        <input type="text" name="lastName" placeholder="" required autofocus />
+                        <input class="form-control" type="text" name="lastName" placeholder="" required autofocus />
                     </div>
                 </div>
                 <div class="row row-cols-3">
                     <div class="d-flex flex-column col-6">
                         <label for="city">City</label>
-                        <input type="text" name="city" placeholder="" required autofocus />
+                        <input class="form-control" type="text" name="city" placeholder="" required autofocus />
                     </div>
                     <div class="d-flex flex-column col-3">
                         <label for="state">State</label>
-                        <select name="state">
+                        <select class="form-select" name="state">
                             <option selected>Pick a state</option>
                             <option value="1">One</option>
                             <option value="2">Two</option>
@@ -59,13 +59,13 @@
                     </div>
                     <div class="d-flex flex-column col-3">
                         <label for="postalCode">Postal Code</label>
-                        <input type="text" name="postalCode" placeholder="" required autofocus />
+                        <input class="form-control" type="text" name="postalCode" placeholder="" required autofocus />
                     </div>
                 </div>
                 <div class="row row-cols-2 d-flex">
                     <div class="d-flex flex-column">
-                        <label for="tarjetasAdmitidas">We accept:</label>
-                        <div class="bg-secondary rounded d-flex justify-content-center py-3 mt-3 ps-2 me-auto" name="tarjetasAdmitidas">
+                        <label for="tarjetasAdmitidas" class="mt-2">We accept:</label>
+                        <div class="bg-secondary rounded d-flex justify-content-center py-3 mt-2 ps-2 me-auto object-fit-contain" name="tarjetasAdmitidas">
                             <div class="form-check form-check-inline">
                                 <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
                                 <label class="form-check-label" for="inlineRadio1"><i class="fa-brands fa-cc-mastercard fs-5"></i></label>
